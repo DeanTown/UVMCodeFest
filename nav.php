@@ -1,26 +1,26 @@
 <nav>
-    <ol>
+    <ol class="navbar">
         <?php
         /* This sets the current page to not be a link. Repeat this if block for
          *  each menu item */
-        if ($path_parts['filename'] == "index") {
-            print '<li class="activePage">Home</li>';
-        } else {
-            print '<li><a href="index.php">Home</a></li>';
-        }
+        
         /* example of repeating */
         
-        if ($path_parts['filename'] == "explore") {
-            print '<li class="activePage">explore</li>';
-        } else {
-            print '<li><a href="explore.php">explore</a></li>';
+        print'<li class="';
+        if ($path_parts['filename']== "explore"){
+            print' activePage ';
         }
-        if ($path_parts['filename'] == "formSubmission") {
-            print '<li class="activePage">formSubmission</li>';
-        } else {
-            print '<li><a href="formSubmission.php">formSubmission</a></li>';
+        print '">';
+        print'<a href="explore.php">Explore</a>';
+        print'</li>';
+        
+        print'<li class="';
+        if ($path_parts['filename']== "dormsubmission"){
+            print' activePage ';
         }
-    
+        print '">';
+        print'<a href="formsubmission.php">Dorm Swap Form</a>';
+        print'</li>';    
         ?>
     </ol>
 </nav>
