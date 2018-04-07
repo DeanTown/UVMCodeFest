@@ -4,6 +4,7 @@ body{
     width: auto !important;
     width: 25%; 
     color: #0d7055;
+
    
 }
 header{
@@ -11,9 +12,6 @@ header{
   margin-left: -1%;
   margin-right: -1%;
   margin-top: -1%;
- 
-
-
 }
 
 h1{
@@ -80,7 +78,7 @@ figcaption{
 .navbar{
   list-style: none;
   margin: auto;
-  padding: em;
+  padding: 1em;
   position: relative;
   text-align: center;
   background-color: #9adb9b;
@@ -141,4 +139,8 @@ activePage{
   left: 0;
   bottom: -4px;
     background-image: -webkit-linear-gradient(right, transparent 0%,#aac7cd 100%);
+}
+footer{
+
+  clear: both;
 }
