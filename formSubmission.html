@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>T.I.P.</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Sarah O'Brien">
+        <meta name="description" content="top">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="../css/finalCustom.css" type="text/css" media="screen">
+
+        
+<!-- include libraries -->
+
+<!--  BEGIN include security -->
+
+<!--  END include security -->
+
+<!-- include form libraries -->
+
+<!-- BEGIN include validation-functions -->
+
+<!-- END include validation-function -->
+
+<!--  BEGIN include mail-message -->
+
+<!--  END include mail-message -->
+
+<!-- finished including libraries -->
+	
+
+    </head>
+    <!-- ################ body section ######################### -->
+
+    <body id="form"><!--######################     header  ####################################-->
+<header>
+	<figure class="img-right  roundedCornersSmall small">
+            <img class="roundedCornersSmall" alt="Raindrop logo" src="../Pics/logo.jpg">
+    </figure>
+</header>
+<!--######################     end header  ####################################-->
+<article id="navBar">
+<nav>
+    <ol>
+        <li class=""><a href="homepage.php">Home</a></li><li class=""><a href="about.php">About</a></li><li class=""><a href="events.php">Events</a></li><li class=""><a href="education.php">Education</a></li><li class=""><a href="volunteer.php">Volunteer</a></li><li class="activePage"><a href="form.php">Give</a></li>    </ol>
+</nav>
+</article>
+<article id="main">
+
+    <h2>Register Today</h2><p class="form-heading">Thank you!</p>
+
+        <form action="/cs008/final/form.php"
+              id="frmRegister"
+              method="post">
+
+            <fieldset class="contact">
+                <legend>Contact Information</legend>
+                <p>
+                    <label class="required text-field" for="txtFullName">Name</label> 
+                    <input autofocus
+                                               id="txtFullName"
+                           maxlength="45"
+                           name="txtFullName"
+                           onfocus="this.select()"
+                           placeholder="Enter your full name"
+                           tabindex="100"
+                           type="text"
+                           value=""                   
+                           >                   
+                </p>
+
+                <p>  
+                    <label class="required text-field" for="txtRoomNumber">Room Number</label>
+                    <input
+                                            id="txtRoomNumber"
+                        maxlength="3"
+                        onfocus="this.select()"
+                        placeholder="Enter your current room number"
+                        tabindex="120"
+                        type="text"
+                        value=""
+                        >
+                </p>
+                <p>  
+                    <label class="required text-field" for="txtRoommate">Roommate</label>
+                    <input
+                                            id="txtRoommate"
+                        maxlength="45"
+                        onfocus="this.select()"
+                        placeholder="Enter your current roommate"
+                        tabindex="120"
+                        type="text"
+                        value=""
+                        >
+                </p>                
+            </fieldset> <!-- ends contact -->
+
+            <fieldset class="radio">
+
+                <legend>Current Learning Community</legend>
+                <p>
+                    <label class="radio-field">
+                        <input type="radio"
+                               id="radPersonStudent"
+                               name="radPerson"
+                               value="Student"
+                               tabindex="572"
+                                checked="checked" >
+                        Student</label>
+                </p>
+
+                <p>   
+                    <label class="radio-field">
+                        <input type="radio"
+                               id="radPersonTeacher"
+                               name="radPerson"
+                               value="Teacher"
+                               tabindex="582"
+                               >
+                        Teacher</label>
+                </p>
+
+                <p>   
+                    <label class="radio-field">
+                        <input type="radio"
+                               id="radPersonOrganization"
+                               name="radPerson"
+                               value="Organization"
+                               tabindex="584"
+                               >
+                        Organization</label>
+                </p>
+                <p>   
+                    <label class="radio-field">
+                        <input type="radio"
+                               id="radPersonParent"
+                               name="radParent"
+                               value="Parent"
+                               tabindex="582"
+                               >
+                        Parent</label>
+                </p>
+
+            </fieldset> 
+
+            <fieldset class="checkbox ">
+                <legend>What are your preferred learning communities?</legend>
+
+                <p>
+                    <label class="check-field">
+                        <input  checked                             id="chkWellnessEnvironment"
+                            name="chkWellnessEnvironment"
+                            tabindex="420"
+                            type="checkbox"
+                            value="Wellness Environment">Wellness Environment</label>
+                </p>
+
+                <p>
+                    <label class="check-field">
+                        <input                             id="chkHonorsCollege"
+                            name="chkHonorsCollege"
+                            tabindex="430"
+                            type="checkbox"
+                            value="Honors College">Honors College</label>
+                </p>
+                <p>
+                    <label class="check-field">
+                        <input                             id="chkWord"
+                            name="chkSchool"
+                            tabindex="430"
+                            type="checkbox"
+                            value="Outdoor Experience"> Outdoor Experience</label>
+                </p>
+                <p>
+                    <label class="check-field">
+                        <input                             id="chkArtsAndCreativity"
+                            name="chkArtsAndCreativity"
+                            tabindex="430"
+                            type="checkbox"
+                            value="Arts and Creativity"> Arts and Creativity</label>
+                </p>
+                <p>
+                    <label class="check-field">
+                        <input                             id="chkCulturalCrossroads"
+                            name="chkCulturalCrossroads"
+                            tabindex="430"
+                            type="checkbox"
+                            value="Cultural Crossroads"> Cultural Crossroads</label>                          
+                </p>  
+                <p>
+                    <label class="check-field">
+                        <input                             id="chkInnovationAndEntrepreneurship"
+                            name="chkInnovationAndEntrepreneurship"
+                            tabindex="430"
+                            type="checkbox"
+                            value="Innovation and Entrepreneurship"> Innovation and Entrepreneurship</label>                          
+                </p> 
+                <p>
+                    <label class="check-field">
+                        <input                             id="chkLeadership"
+                            name="chkLeadership"
+                            tabindex="430"
+                            type="checkbox"
+                            value="Leadership"> Leadership</label>                          
+                </p>  
+                <p>
+                    <label class="check-field">
+                        <input                             id="chkSustainability"
+                            name="chkSustainability"
+                            tabindex="430"
+                            type="checkbox"
+                            value="Sustainability"> Sustainability</label>                          
+                </p>   
+                <p>
+                    <label class="check-field">
+                        <input                             id="chkJourneyToIndependence"
+                            name="chkJourneyToIndependence"
+                            tabindex="430"
+                            type="checkbox"
+                            value="Journey to Independene"> Journey to Independence</label>                          
+                </p>                                                                                         
+            </fieldset>  
+
+        </form>
+
+        
+</article>
+
+<!--######################     Footer  ####################################-->
+<footer>
+	<p>Designed by Fiona Brockner, Sarah O'Brien and Henry Rice</p>
+</footer>
+<!--######################     End Footer  ################################-->
+</body>
+</html>
