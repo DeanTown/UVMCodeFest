@@ -9,7 +9,21 @@
 <link rel="stylesheet" href="CSS/style.css" media="screen">
         <?php
        $debug = false;
+       
+include 'header.php';
 
+?>
+<html lang="en">
+    <head>
+        <title>Dorm Match</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="">
+        <meta name="description" content="top of page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/CodeFest2018/CSS/style.css" type="text/css" media="screen">
+    </head>
+=======
 // %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //
 // PATH SETUP
@@ -66,3 +80,4 @@
     include "header.php";
     include "nav.php";
     ?>
+>>>>>>> d834758aca77e464fee5aadd711040ffad7d2af5

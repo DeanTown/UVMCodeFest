@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
 <?php
 // *** Open country data *** //
 $debug = false;
@@ -57,22 +61,36 @@ include('top.php');
 ?>
 <article>
     <h2>Campuses</h2>
+        <figure class="campus">
+            <a class="campus-link" href="room-listings.html">
+                <img class="campus-link" alt="university of vermont" src="images/all.jpg">
+            </a>
+            <figcaption>All Dorms</figcaption>
+        </figure>
         <?php
         $lastCampus = "";
         foreach ($campusDetails as $campusDetail) {
             if ($lastCampus != $campusDetail[0] & $campusDetail[0] != "Jeanne Mance") {
                 print '<figure class="campus"><a class="campus-link" href="campus-detail.php?campus=';
-                print str_replace('_', ' ', $campusDetail[0]);
+                print str_replace(' ', '', $campusDetail[0]);
                 print '">';
                 print '<img class="campus-link" alt="'. $campusDetail[0];
                 print '" src="images/';
                 print str_replace(' ', '', $campusDetail[0]);
                 print '.jpg">';
-                print '</a></figure>';
+                print '</a><figcaption>' . $campusDetail[0];
+                if($campusDetail[0] != "Central Campus") print ' Campus';
+                print '</figcaption></figure>';
                 $lastCampus = $campusDetail[0];
             }
         }
         ?>
+        <figure class="campus">
+            <a class="campus-link" href="room-listings.html">
+                <img class="campus-link" alt="jeanne mance hall" src="images/JeanneMance.jpg">
+            </a>
+            <figcaption>Jeanne Mance</figcaption>
+        </figure>
 </article>
 <?php
 include('footer.php');
