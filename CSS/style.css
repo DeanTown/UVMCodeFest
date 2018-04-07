@@ -1,8 +1,8 @@
 body{
     background-color: #fff8e1;
-    min-width:1000px;        
+    min-width:15%;        
     width: auto !important;
-    width: 15%; 
+    width: 25%; 
     color: #0d7055;
    
 }
@@ -24,14 +24,14 @@ figcaption{
     font-family: sans-serif;
     font-size: 14pt;
     font-weight: normal;
-    color: #0d7055
+    color: #0d7055;
 }
 
 .campus{
     width: 25%;
     float: left;
     padding: .1em;
-    border: 1px solid black;
+    border: 1px solid #0d7055;
     font-size: 14pt;
     text-align: center;
     font-weight: bold;
@@ -48,7 +48,7 @@ figcaption{
     width: 25%;
     float: left;
     padding: .1em;
-    border: 1px solid black;
+    border: 1px solid #0d7055;
     margin: 2em, auto;
     font-size: 14pt;
     text-align: center;
