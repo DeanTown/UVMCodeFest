@@ -60,13 +60,29 @@ fclose($file);
 include('top.php');
 ?>
 <article id="dorm">
-    <h2><?php if($campus = "CentralCampus") print "Central Campus"; else print $campus;?> Dorms</h2>
+    <h2><?php if($campus == "CentralCampus"){
+                print "Central Campus";
+              } else {
+                print $campus;
+              }
+        ?> 
+        Dorms</h2>
+    <figure class="campus">
+            <a class="campus-link" href="room-listings.html">
+                <img class="campus-link" alt="<?php print $campus?>" src="images/<?php print $campus . ".jpg"?>">
+            </a>
+            <figcaption><?php print 'All ';
+                              if($campus == "CentralCampus"){
+                                print "Central Campus";
+                              } else {
+                                print $campus;
+                              }?>
+             Dorms</figcaption>
+        </figure>
     <?php
         foreach ($dormDetails as $dormDetail) {
             if ($campus == str_replace(' ', '', $dormDetail[0])) {
-                print '<figure class="dorm"><a class="dorm-link" href="dorm-detail.php?dorm=';
-                print str_replace(' ', '', $dormDetail[1]);
-                print '">';
+                print '<figure class="dorm"><a class="dorm-link" href="room-listings.html">';
                 print '<img class="dorm-link" alt="' . $dormDetail[1];
                 print '" src="images/' . str_replace(' ', '', $dormDetail[1]);
                 print '.jpg">';
