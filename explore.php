@@ -61,6 +61,7 @@ include('top.php');
             <a class="campus-link" href="room-listings.html">
                 <img class="campus-link" alt="university of vermont" src="images/all.jpg">
             </a>
+            <figcaption>All Dorms</figcaption>
         </figure>
         <?php
         $lastCampus = "";
@@ -73,7 +74,9 @@ include('top.php');
                 print '" src="images/';
                 print str_replace(' ', '', $campusDetail[0]);
                 print '.jpg">';
-                print '</a></figure>';
+                print '</a><figcaption>' . $campusDetail[0];
+                if($campusDetail[0] != "Central Campus") print ' Campus';
+                print '</figcaption></figure>';
                 $lastCampus = $campusDetail[0];
             }
         }
@@ -82,6 +85,7 @@ include('top.php');
             <a class="campus-link" href="room-listings.html">
                 <img class="campus-link" alt="jeanne mance hall" src="images/JeanneMance.jpg">
             </a>
+            <figcaption>Jeanne Mance</figcaption>
         </figure>
 </article>
 <?php

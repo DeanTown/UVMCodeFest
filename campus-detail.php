@@ -60,7 +60,7 @@ fclose($file);
 include('top.php');
 ?>
 <article id="dorm">
-    <h2><?php print $campus;?> Dorms</h2>
+    <h2><?php if($campus = "CentralCampus") print "Central Campus"; else print $campus;?> Dorms</h2>
     <?php
         foreach ($dormDetails as $dormDetail) {
             if ($campus == str_replace(' ', '', $dormDetail[0])) {
