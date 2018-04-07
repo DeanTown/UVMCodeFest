@@ -60,16 +60,16 @@ include('top.php');
         <?php
         $lastCampus = "";
         foreach ($campusDetails as $campusDetail) {
-            if ($lastCampus != $campusDetail[1]) {
+            if ($lastCampus != $campusDetail[0]) {
                 print '<figure class="campus"><a class="campus-link" href="campus-detail.php?campus=';
-                print str_replace('_', ' ', $campusDetail[1]);
+                print str_replace('_', ' ', $campusDetail[0]);
                 print '">';
-                print '<img class="campus-link" alt="'. $campusDetail[1];
+                print '<img class="campus-link" alt="'. $campusDetail[0];
                 print '" src="images/';
-                print str_replace(' ', '_', $campusDetail[1]);
+                print str_replace(' ', '', $campusDetail[0]);
                 print '.jpg">';
                 print '</a></figure>';
-                $lastCampus = $countryDetail[1];
+                $lastCampus = $countryDetail[0];
             }
         }
         ?>
