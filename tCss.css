@@ -1,0 +1,21 @@
+#try .row{
+	border: 5px solid darkgreen;
+	padding: 2%;
+	border-radius: 10px;
+	background-color: floralwhite;
+}
+
+#try img{
+	border: 2px solid grey;
+	padding: 1%;
+}
+
+#try h2{
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.tags{
+	margin-top: 10px;
+}
+
