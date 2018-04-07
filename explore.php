@@ -67,7 +67,7 @@ include('top.php');
         foreach ($campusDetails as $campusDetail) {
             if ($lastCampus != $campusDetail[0] & $campusDetail[0] != "Jeanne Mance") {
                 print '<figure class="campus"><a class="campus-link" href="campus-detail.php?campus=';
-                print str_replace('_', ' ', $campusDetail[0]);
+                print str_replace(' ', '', $campusDetail[0]);
                 print '">';
                 print '<img class="campus-link" alt="'. $campusDetail[0];
                 print '" src="images/';
