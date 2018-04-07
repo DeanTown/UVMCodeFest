@@ -1,26 +1,15 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>Get it right</title>
+<title>Room Mate</title>
 <meta charset="utf-8">
 <meta name="author" content="Nkanginieme">
-<meta name="description" content="A website dedicated to ensure people can be safe from vampires.">
+<meta name="description" content="A website dedicated to making sure uvm students can find good roomates.">
 
 <link rel="stylesheet" href="CSS/style.css" media="screen">
         <?php
             $debug = false;
-        ?>
-<html lang="en">
-    <head>
-        <title>Dorm Match</title>
 
-        <meta charset="utf-8">
-        <meta name="author" content="">
-        <meta name="description" content="top of page">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/CodeFest2018/CSS/style.css" type="text/css" media="screen">
-    </head>
-<?php
  //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //
 // PATH SETUP
