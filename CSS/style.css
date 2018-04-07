@@ -145,8 +145,14 @@ figcaption{
 footer{
   clear: both;
   text-align: center;
+<<<<<<< HEAD
 }
 
 p{
     font-size: 8pt;
+=======
+  padding: .5em;
+  background-color: #9adb9b;
+  color: #fff8e1;
+>>>>>>> 94555392bbe97fa44ecae1906d3d2f564b60fcaa
 }
