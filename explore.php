@@ -60,7 +60,7 @@ include('top.php');
         <?php
         $lastCampus = "";
         foreach ($campusDetails as $campusDetail) {
-            if ($lastCampus != $campusDetail[0]) {
+            if ($lastCampus != $campusDetail[0] & $campusDetail[0] != "Jeanne Mance") {
                 print '<figure class="campus"><a class="campus-link" href="campus-detail.php?campus=';
                 print str_replace('_', ' ', $campusDetail[0]);
                 print '">';
