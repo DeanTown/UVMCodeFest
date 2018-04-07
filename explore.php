@@ -57,6 +57,11 @@ include('top.php');
 ?>
 <article>
     <h2>Campuses</h2>
+        <figure class="campus">
+            <a class="campus-link" href="room-listings.html">
+                <img class="campus-link" alt="university of vermont" src="images/all.jpg">
+            </a>
+        </figure>
         <?php
         $lastCampus = "";
         foreach ($campusDetails as $campusDetail) {
@@ -73,6 +78,11 @@ include('top.php');
             }
         }
         ?>
+        <figure class="campus">
+            <a class="campus-link" href="room-listings.html">
+                <img class="campus-link" alt="jeanne mance hall" src="images/JeanneMance.jpg">
+            </a>
+        </figure>
 </article>
 <?php
 include('footer.php');
