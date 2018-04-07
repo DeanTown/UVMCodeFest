@@ -234,7 +234,9 @@ include 'top.php';
 
         
 </article>
-include 'footer.php';
+<?php
+include('footer.php');
+?>
 </body>
 </html>
 

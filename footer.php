@@ -1,3 +1,3 @@
 <footer>
-	Created by Molasses
+    <p>Created by Molasses</p>
 </footer>
