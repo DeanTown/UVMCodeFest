@@ -8,11 +8,8 @@
 
 <link rel="stylesheet" href="CSS/style.css" media="screen">
         <?php
-       $debug = false;
-       
-include 'header.php';
-
-?>
+            $debug = false;
+        ?>
 <html lang="en">
     <head>
         <title>Dorm Match</title>
