@@ -1,8 +1,7 @@
 body{
-    background-color: #fff8e1;
-    min-width:15%;        
+    background-color: #fff8e1;       
     width: auto !important;
-    width: 25%; 
+    max-width: 100%; 
     color: #0d7055;
 
    
@@ -43,6 +42,7 @@ figcaption{
 
 .campus{
     width: 25%;
+    min-width: 200px;
     float: left;
     padding: .1em;
     border: 1px solid #0d7055;
@@ -56,6 +56,7 @@ figcaption{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    min-width: 50%;
 }
 
 .dorm{
@@ -141,6 +142,6 @@ activePage{
     background-image: -webkit-linear-gradient(right, transparent 0%,#aac7cd 100%);
 }
 footer{
-
   clear: both;
+  text-align: center;
 }

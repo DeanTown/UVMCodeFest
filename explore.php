@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-    <body>
 <?php
 // *** Open country data *** //
 $debug = false;
