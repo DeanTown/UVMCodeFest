@@ -69,7 +69,7 @@ include('top.php');
                 print str_replace(' ', '', $campusDetail[0]);
                 print '.jpg">';
                 print '</a></figure>';
-                $lastCampus = $countryDetail[0];
+                $lastCampus = $campusDetail[0];
             }
         }
         ?>
