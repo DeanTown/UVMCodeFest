@@ -1,16 +1,21 @@
 body{
-    background-color: white;
+    background-color: #fff8e1;
     min-width:1000px;        
     width: auto !important;
     width: 15%; 
+    color: #0d7055;
+   
 }
 
 .campus{
     width: 25%;
     float: left;
     padding: .1em;
-    height: 20em;
     border: 1px solid black;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+
 }
 .campus-link{
     display: block;
@@ -20,13 +25,14 @@ body{
 }
 
 .dorm{
-    width: 15%;
+    width: 25%;
     float: left;
-    padding: em;
-    height: 20em;
+    padding: .1em;
     border: 1px solid black;
     margin: 2em, auto;
-
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
 }
 
 .dorm-link{
