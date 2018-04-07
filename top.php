@@ -23,8 +23,8 @@ include 'header.php';
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/CodeFest2018/CSS/style.css" type="text/css" media="screen">
     </head>
-=======
-// %^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+<?php
+ //%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
 //
 // PATH SETUP
 //
@@ -80,4 +80,3 @@ include 'header.php';
     include "header.php";
     include "nav.php";
     ?>
->>>>>>> d834758aca77e464fee5aadd711040ffad7d2af5
