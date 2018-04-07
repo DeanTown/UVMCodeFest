@@ -7,19 +7,24 @@ body{
    
 }
 header{
-  background-color: #9adb9b;
+  
   margin-left: -1%;
   margin-right: -1%;
   margin-top: -1%;
+ 
+
 
 }
+
 h1{
     font-family: ProximaNova, sans-serif;
     font-size: 300%;
     color: #0d7055;
+    padding-top: 1em;
     text-align: center;
-    background-color:#9adb9b;
     margin: 0em;
+     background-color: #9adb9b;
+    
 }
 
 h2{
@@ -28,6 +33,7 @@ h2{
     font-weight: bold;
     color: #0d7055;
     text-align: center;
+
 }
 
 figcaption{
@@ -74,9 +80,10 @@ figcaption{
 .navbar{
   list-style: none;
   margin: auto;
-  padding: 1em;
+  padding: em;
   position: relative;
   text-align: center;
+  background-color: #9adb9b;
 }
 activePage{
     text-decoration: underline;

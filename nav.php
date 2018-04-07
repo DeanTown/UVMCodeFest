@@ -15,11 +15,11 @@
         print'</li>';
         
         print'<li class="';
-        if ($path_parts['filename']== "dormsubmission"){
+        if ($path_parts['filename']== "formSubmission"){
             print' activePage ';
         }
         print '">';
-        print'<a href="formsubmission.php">Dorm Swap Form</a>';
+        print'<a href="formSubmission.php">Dorm Swap Form</a>';
         print'</li>';    
         ?>
     </ol>
